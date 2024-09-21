@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paisaje de Día con Flores Sorpresa</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #87CEEB; /* Cielo azul */
+            color: white;
+        }
+        .message {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80%;
+            font-size: 20px;
+            line-height: 1.5;
+            z-index: 1;
+            color: black; /* Color del texto para contraste */
+        }
+    </style>
+</head>
+<body>
+    <div class="message">
+        Tu nombre brilla como un girasol al amanecer,<br>
+        tu risa, un canto que alegra mis días,<br>
+        y tu mirada, un refugio sereno,<br>
+        más hermosa que la luz que despierta el día.<br><br>
+        Agradezco la dulzura de tu voz,<br>
+        melodía que acaricia el aire,<br>
+        y esos pensamientos tan vastos y profundos,<br>
+        como el universo que me invita a explorar.<br><br>
+        Eres un faro en un mar de amistades,<br>
+        tu elegancia me cautiva y sorprende,<br>
+        y en cada instante compartido,<br>
+        encuentro belleza en lo simple y lo sincero.<br><br>
+        Gracias por ser luz en mis días,<br>
+        por tu risa que contagia alegría,<br>
+        porque en tu esencia he hallado un valor<br>
+        que inspira a valorar cada momento en tu compañía.
+    </div>
+
+    <svg width="100%" height="100%" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+        <!-- Cielo -->
+        <rect width="100%" height="100%" fill="#87CEEB"/>
+
+        <!-- Sol -->
+        <circle cx="650" cy="80" r="40" fill="#FFD700" />
+
+        <!-- Decoración del cielo -->
+        <g>
+            <!-- Nubes -->
+            <ellipse cx="150" cy="80" rx="50" ry="20" fill="white" />
+            <ellipse cx="200" cy="80" rx="50" ry="20" fill="white" />
+            <ellipse cx="175" cy="70" rx="50" ry="20" fill="white" />
+            <ellipse cx="600" cy="50" rx="60" ry="25" fill="white" />
+            <ellipse cx="550" cy="60" rx="60" ry="25" fill="white" />
+            <ellipse cx="580" cy="40" rx="60" ry="25" fill="white" />
+        </g>
+
+        <!-- Césped -->
+        <rect y="300" width="100%" height="100" fill="#4CAF50"/>
+
+        <!-- Muchas Flores Bonitas con tallos -->
+        <g>
+            <!-- Flor 1 -->
+            <g transform="translate(100,280)">
+                <line x1="0" y1="0" x2="0" y2="20" stroke="#3B8A33" stroke-width="3"/> <!-- Tallo -->
+                <circle cx="0" cy="-15" r="10" fill="#FF1493"/> <!-- Pétalos rosas -->
+                <circle cx="0" cy="-15" r="5" fill="#8B4513"/> <!-- Centro marrón -->
+            </g>
+
+            <!-- Flor 2 -->
+            <g transform="translate(250,280)">
+                <line x1="0" y1="0" x2="0" y2="20" stroke="#3B8A33" stroke-width="3"/>
+                <circle cx="0" cy="-15" r="10" fill="#FFA500"/> <!-- Pétalos naranjas -->
+                <circle cx="0" cy="-15" r="5" fill="#8B4513"/>
+            </g>
+
+            <!-- Flor 3 -->
+            <g transform="translate(400,280)">
+                <line x1="0" y1="0" x2="0" y2="20" stroke="#3B8A33" stroke-width="3"/>
+                <circle cx="0" cy="-15" r="10" fill="#FFFF00"/> <!-- Pétalos amarillos -->
+                <circle cx="0" cy="-15" r="5" fill="#8B4513"/>
+            </g>
+
+            <!-- Flor 4 -->
+            <g transform="translate(550,280)">
+                <line x1="0" y1="0" x2="0" y2="20" stroke="#3B8A33" stroke-width="3"/>
+                <circle cx="0" cy="-15" r="10" fill="#FF69B4"/> <!-- Pétalos rosas -->
+                <circle cx="0" cy="-15" r="5" fill="#8B4513"/>
+            </g>
+
+            <!-- Flor 5 -->
+            <g transform="translate(150,320)">
+                <line x1="0" y1="0" x2="0" y2="20" stroke="#3B8A33" stroke-width="3"/>
+                <circle cx="0" cy="-15" r="10" fill="#00FF00"/> <!-- Pétalos verdes -->
+                <circle cx="0" cy="-15" r="5" fill="#8B4513"/>
+            </g>
+
+            <!-- Más flores para llenar el césped -->
+            <g transform="translate(300,320)">
+                <line x1="0" y1="0" x2="0" y2="20" stroke="#3B8A33" stroke-width="3"/>
+                <circle cx="0" cy="-15" r="10" fill="#0000FF"/> <!-- Pétalos azules -->
+                <circle cx="0" cy="-15" r="5" fill="#8B4513"/>
+            </g>
+
+            <g transform="translate(450,320)">
+                <line x1="0" y1="0" x2="0" y2="20" stroke="#3B8A33" stroke-width="3"/>
+                <circle cx="0" cy="-15" r="10" fill="#FFA07A"/> <!-- Pétalos salmón -->
+                <circle cx="0" cy="-15" r="5" fill="#8B4513"/>
+            </g>
+
+            <!-- Más flores -->
+            <g transform="translate(350,280)">
+                <line x1="0" y1="0" x2="0" y2="20" stroke="#3B8A33" stroke-width="3"/>
+                <circle cx="0" cy="-15" r="10" fill="#FF4500"/> <!-- Pétalos rojos -->
+                <circle cx="0" cy="-15" r="5" fill="#8B4513"/>
+            </g>
+
+            <g transform="translate(500,280)">
+                <line x1="0" y1="0" x2="0" y2="20" stroke="#3B8A33" stroke-width="3"/>
+                <circle cx="0" cy="-15" r="10" fill="#FFFFE0"/> <!-- Pétalos crema -->
+                <circle cx="0" cy="-15" r="5" fill="#8B4513"/>
+            </g>
+        </g>
+    </svg>
+</body>
+</html>
+
+

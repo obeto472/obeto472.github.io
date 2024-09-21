@@ -1,0 +1,11 @@
+.moon-btn {
+    position: absolute;
+    top: 80px; /* Ajusta según sea necesario */
+    left: 85%; /* Ajusta según sea necesario */
+    width: 40px; /* Ancho del botón */
+    height: 40px; /* Alto del botón */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 2; /* Asegúrate de que esté por encima de otros elementos */
+}

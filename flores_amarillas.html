@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paisaje Espacial con Flores Amarillas</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden; /* Evita las barras de desplazamiento */
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: black;
+            color: white;
+        }
+        .message {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80%;
+            font-size: 20px;
+            line-height: 1.5;
+            z-index: 1; /* Para que el mensaje esté por encima del SVG */
+            color: white;
+        }
+        .star {
+            fill: #fff; /* Color de las estrellas */
+        }
+    </style>
+</head>
+<body>
+    <div class="message">
+        Su nombre resplandece como el amanecer,<br>
+        su risa es un canto que invita a soñar,<br>
+        sus ojos, dos estrellas que saben brillar,<br>
+        y su voz, un susurro que acaricia el ser.<br><br>
+
+        Sus pensamientos son galaxias, vastos y sutiles,<br>
+        con secretos profundos que invitan a explorar,<br>
+        en su esencia encuentro un universo a la par,<br>
+        donde la belleza y la magia son destellos brillantes.<br><br>
+
+        Cada palabra suya es un verso encantado,<br>
+        que en el aire se queda, como un dulce eco,<br>
+        y en su presencia el tiempo se vuelve lento,<br>
+        deseo conocer más de su mundo anhelado.
+    </div>
+
+    <svg width="100%" height="100%" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+        <!-- Fondo Espacial -->
+        <rect width="100%" height="100%" fill="black"/>
+        
+        <!-- Estrellas -->
+        <circle class="star" cx="100" cy="50" r="2"/>
+        <circle class="star" cx="200" cy="80" r="2"/>
+        <circle class="star" cx="300" cy="40" r="2"/>
+        <circle class="star" cx="400" cy="100" r="2"/>
+        <circle class="star" cx="500" cy="60" r="2"/>
+        <circle class="star" cx="600" cy="20" r="2"/>
+        <circle class="star" cx="700" cy="90" r="2"/>
+        <circle class="star" cx="750" cy="150" r="2"/>
+        <circle class="star" cx="650" cy="180" r="2"/>
+        <circle class="star" cx="450" cy="200" r="2"/>
+        <circle class="star" cx="150" cy="150" r="2"/>
+        <circle class="star" cx="350" cy="200" r="2"/>
+        <circle class="star" cx="250" cy="250" r="2"/>
+        <circle class="star" cx="600" cy="300" r="2"/>
+        <circle class="star" cx="50" cy="250" r="2"/>
+        <circle class="star" cx="80" cy="100" r="2"/>
+        <circle class="star" cx="400" cy="50" r="2"/>
+        <circle class="star" cx="620" cy="100" r="2"/>
+        <circle class="star" cx="300" cy="300" r="2"/>
+
+        <!-- Luna detallada -->
+        <circle cx="700" cy="100" r="30" fill="white"/>
+        <circle cx="690" cy="90" r="5" fill="#D3D3D3"/>
+        <circle cx="710" cy="120" r="4" fill="#D3D3D3"/>
+        <circle cx="720" cy="80" r="6" fill="#D3D3D3"/>
+
+        <!-- Césped -->
+        <rect y="300" width="100%" height="100" fill="#4CAF50"/>
+
+        <!-- Muchas Flores Amarillas con Tallos de color marrón oscuro -->
+        <g>
+            <!-- Flor 1 -->
+            <g transform="translate(100,320)">
+                <circle cx="-10" cy="0" r="5" fill="#ffcc00"/>
+                <circle cx="10" cy="0" r="5" fill="#ffcc00"/>
+                <circle cx="0" cy="-10" r="5" fill="#ffcc00"/>
+                <circle cx="0" cy="10" r="5" fill="#ffcc00"/>
+                <circle cx="7" cy="7" r="5" fill="#ffcc00"/>
+                <circle cx="-7" cy="7" r="5" fill="#ffcc00"/>
+                <circle cx="7" cy="-7" r="5" fill="#ffcc00"/>
+                <circle cx="-7" cy="-7" r="5" fill="#ffcc00"/>
+                <circle cx="0" cy="0" r="5" fill="#8B4513"/> <!-- Centro marrón más grande -->
+            </g>
+            <rect x="97" y="320" width="6" height="60" fill="#556B2F"/> <!-- Tallo verde oscuro -->
+        </g>
+
+        <!-- Flor 2 -->
+        <g transform="translate(200,320)">
+            <circle cx="-10" cy="0" r="5" fill="#ffcc00"/>
+            <circle cx="10" cy="0" r="5" fill="#ffcc00"/>
+            <circle cx="0" cy="-10" r="5" fill="#ffcc00"/>
+            <circle cx="0" cy="10" r="5" fill="#ffcc00"/>
+            <circle cx="7" cy="7" r="5" fill="#ffcc00"/>
+            <circle cx="-7" cy="7" r="5" fill="#ffcc00"/>
+            <circle cx="7" cy="-7" r="5" fill="#ffcc00"/>
+            <circle cx="-7" cy="-7" r="5" fill="#ffcc00"/>
+            <circle cx="0" cy="0" r="5" fill="#8B4513"/> <!-- Centro marrón más grande -->
+        </g>
+        <rect x="197" y="320" width="6" height="60" fill="#556B2F"/>
+
+        <!-- Flor 3 -->
+        <g transform="translate(300,320)">
+            <circle cx="-10" cy="0" r="5" fill="#ffcc00"/>
+            <circle cx="10" cy="0" r="5" fill="#ffcc00"/>
+            <circle cx="0" cy="-10" r="5" fill="#ffcc00"/>
+            <circle cx="0" cy="10" r="5" fill="#ffcc00"/>
+            <circle cx="7" cy="7" r="5" fill="#ffcc00"/>
+            <circle cx="-7" cy="7" r="5" fill="#ffcc00"/>
+            <circle cx="7" cy="-7" r="5" fill="#ffcc00"/>
+            <circle cx="-7" cy="-7" r="5" fill="#ffcc00"/>
+            <circle cx="0" cy="0" r="5" fill="#8B4513"/> <!-- Centro marrón más grande -->
+        </g>
+        <rect x="297" y="320" width="6" height="60" fill="#556B2F"/>
+
+        <!-- Más flores -->
+        <g transform="translate(400,320)">
+            <circle cx="-10" cy="0" r="5" fill="#ffcc00"/>
+            <circle cx="10" cy="0" r="5" fill="#ffcc00"/>
+            <circle cx="0" cy="-10" r="5" fill="#ffcc00"/>
+            <circle cx="0" cy="10" r="5" fill="#ffcc00"/>
+            <circle cx="7" cy="7" r="5" fill="#ffcc00"/>
+            <circle cx="-7" cy="7" r="5" fill="#ffcc00"/>
+            <circle cx="7" cy="-7" r="5" fill="#ffcc00"/>
+            <circle cx="-7" cy="-7" r="5" fill="#ffcc00"/>
+            <circle cx="0" cy="0" r="5" fill="#8B4513"/> <!-- Centro marrón más grande -->
+        </g>
+        <rect x="397" y="320" width="6" height="60" fill="#556B2F"/>
+
+        <g transform="translate(500,320)">
+            <circle cx="-10" cy="0" r="5" fill="#ffcc00"/>
+            <circle cx="10" cy="0" r="5" fill="#ffcc00"/>
+            <circle cx="0" cy="-10" r="5" fill="#ffcc00"/>
+            <circle cx="0" cy="10" r="5" fill="#ffcc00"/>
+            <circle cx="7" cy="7" r="5" fill="#ffcc00"/>
+            <circle cx="-7" cy="7" r="5" fill="#ffcc00"/>
+            <circle cx="7" cy="-7" r="5" fill="#ffcc00"/>
+            <circle cx="-7" cy="-7" r="5" fill="#ffcc00"/>
+            <circle cx="0" cy="0" r="5" fill="#8B4513"/> <!-- Centro marrón más grande -->
+        </g>
+        <rect x="497" y="320" width="6" height="60" fill="#556B2F"/>
+
+        <!-- Más flores según sea necesario -->
+    </svg>
+</body>
+</html>
